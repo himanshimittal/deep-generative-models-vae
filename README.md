@@ -1,4 +1,4 @@
-#📌 Image Captioning using CNN and Transformers + VAE Implementation**
+#📌 Image Captioning using CNN and Transformers + VAE Implementation
 
 ##📄 Research Overview<br>
 This project is based on our research paper titled:<br>
