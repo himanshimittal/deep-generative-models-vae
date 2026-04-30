@@ -8,14 +8,14 @@ Convolutional Neural Networks (CNNs) for feature extraction
 Transformer-based architecture for sequence generation
 We use VGG16 as the encoder and a Transformer decoder with attention mechanisms to generate captions. The model is trained on the Flickr8k dataset, achieving promising results in generating fluent and coherent captions .
 
-**💡 Key Contributions**
+**💡 Key Contributions**<br>
 Hybrid CNN + Transformer architecture
 Use of multi-head attention for better context understanding
 Implementation of image feature extraction using VGG16
 Evaluation using BLEU score metrics
 Additional implementation of a Variational Autoencoder (VAE) for image reconstruction
 
-**🧠 Code Overview**
+**🧠 Code Overview**<br>
 This repository includes:
 
 1. 📷 Image Captioning (Research Work)
@@ -30,7 +30,7 @@ Image compression
 Latent representation learning
 Image reconstruction (CIFAR-10 dataset)
 
-**🏗️ VAE Architecture**
+**🏗️ VAE Architecture**<br>
 Encoder
 Conv layers → Feature extraction
 Fully connected layers → Latent space
@@ -49,14 +49,14 @@ Loss Function
 Reconstruction Loss (MSE)
 KL Divergence
 
-**⚙️ Tech Stack**
+**⚙️ Tech Stack**<br>
 Python
 PyTorch
 Torchvision
 NumPy
 Matplotlib
 
-**📂 Dataset**
+**📂 Dataset**<br>
 Research Work:
 Flickr8k Dataset
 8000 images
@@ -67,7 +67,7 @@ CIFAR-10 Dataset
 32x32 RGB images
 10 classes
 
-**🚀 How to Run**
+**🚀 How to Run**<br>
 1. Clone the repository
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
@@ -76,35 +76,35 @@ pip install torch torchvision matplotlib
 3. Run the VAE model
 python vae.py
 
-**📊 Output**
+**📊 Output**<br>
 Displays:
 Training loss per epoch
 Original vs Reconstructed images
 
-**📈 Results (Research Work)**
+**📈 Results (Research Work)**<br>
 BLEU Scores:
 BLEU-1: 0.72
 BLEU-2: 0.61
 BLEU-3: 0.52
 BLEU-4: 0.46
 
-**🧪 Sample Output (VAE)**
+**🧪 Sample Output (VAE)**<br>
 Input: CIFAR-10 images
 Output: Reconstructed images using latent space
 
-**📌 Future Work**
+**📌 Future Work**<br>
 Improve caption quality using larger datasets (MS COCO)
 Optimize transformer architecture
 Enhance VAE with better reconstruction loss (e.g., BCE)
 Combine VAE with captioning for generative tasks
 
-**👩‍💻 Authors**
+**👩‍💻 Authors**<br>
 Diya Nanda, Hasika, Himanshi Mittal
 
-**📜 License**
+**📜 License**<br>
 This project is for academic and research purposes.
 
-**⭐ Acknowledgements**
+**⭐ Acknowledgements**<br>
 Flickr8k Dataset
 PyTorch Community
 Research references cited in the paper
